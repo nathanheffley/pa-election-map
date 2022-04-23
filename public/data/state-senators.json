@@ -1,0 +1,848 @@
+[
+    {
+        "election": "2020 Presidential Election",
+        "district": 1,
+        "party": "Democratic",
+        "name": "Nikil Saval",
+        "votes": 124514,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 2,
+        "party": "Democratic",
+        "name": "Christine Tartaglione",
+        "votes": 58717,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 3,
+        "party": "Democratic",
+        "name": "Sharif Street",
+        "votes": 90323,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 4,
+        "party": "Democratic",
+        "name": "Arthur Haywood III",
+        "votes": 110147,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 4,
+        "party": "Republican",
+        "name": "Ronald Holt",
+        "votes": 17068,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 5,
+        "party": "Democratic",
+        "name": "John Sabatina Jr.",
+        "votes": 69514,
+        "elected": true,
+        "note": "Vacant since January 1 , 2022 when the Senator was elected to the Philadelphia County Court of Common Pleas."
+    },
+    {
+        "election": "2018 General Election",
+        "district": 6,
+        "party": "Democratic",
+        "name": "Tina Davis",
+        "votes": 54308,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 6,
+        "party": "Republican",
+        "name": "Robert Tomlinson",
+        "votes": 54382,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 7,
+        "party": "Democratic",
+        "name": "Vincent Hughes",
+        "votes": 115760,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 8,
+        "party": "Democratic",
+        "name": "Anthony Williams",
+        "votes": 86092,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 9,
+        "party": "Democratic",
+        "name": "John Kane I",
+        "votes": 80198,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 9,
+        "party": "Republican",
+        "name": "Thomas Killion",
+        "votes": 74173,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 10,
+        "party": "Democratic",
+        "name": "Steven Santarsiero",
+        "votes": 67438,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 10,
+        "party": "Republican",
+        "name": "Marguerite Quinn",
+        "votes": 60935,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 11,
+        "party": "Democratic",
+        "name": "Judith Schwank",
+        "votes": 66735,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 11,
+        "party": "Republican",
+        "name": "Annette Scott",
+        "votes": 47624,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 12,
+        "party": "Democratic",
+        "name": "Maria Collett",
+        "votes": 62069,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 12,
+        "party": "Republican",
+        "name": "Stewart Greenleaf Jr.",
+        "votes": 55742,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 13,
+        "party": "Democratic",
+        "name": "Janet Temin",
+        "votes": 58524,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 13,
+        "party": "Republican",
+        "name": "Scott Martin",
+        "votes": 73371,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 14,
+        "party": "Independent",
+        "name": "John T. Yudichak",
+        "votes": 51521,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 15,
+        "party": "Democratic",
+        "name": "George Scott",
+        "votes": 66632,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 15,
+        "party": "Republican",
+        "name": "John DiSanto",
+        "votes": 71119,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 16,
+        "party": "Democratic",
+        "name": "Mark Pinsley",
+        "votes": 46200,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 16,
+        "party": "Republican",
+        "name": "Patrick Browne",
+        "votes": 48897,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 17,
+        "party": "Democratic",
+        "name": "Amanda Cappelletti",
+        "votes": 105840,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 17,
+        "party": "Republican",
+        "name": "Ellen Fisher",
+        "votes": 54750,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 18,
+        "party": "Democratic",
+        "name": "Lisa Boscola",
+        "votes": 65705,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 19,
+        "party": "Democratic",
+        "name": "Carolyn Comitta",
+        "votes": 88996,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 19,
+        "party": "Republican",
+        "name": "Kevin Runey",
+        "votes": 65836,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 20,
+        "party": "Green",
+        "name": "John Sweeney",
+        "votes": 14467,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 20,
+        "party": "Republican",
+        "name": "Elisabeth Scott",
+        "votes": 67350,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 21,
+        "party": "Democratic",
+        "name": "Shelbie Lynn Stromyer",
+        "votes": 40570,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 21,
+        "party": "Republican",
+        "name": "Scott Hutchinson",
+        "votes": 98627,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 22nd Senatorial District",
+        "district": 22,
+        "party": "Democratic",
+        "name": "Marty Fynn",
+        "votes": 30548,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 22nd Senatorial District",
+        "district": 22,
+        "party": "Green",
+        "name": "Marlene Sebastianelli",
+        "votes": 5373,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 22nd Senatorial District",
+        "district": 22,
+        "party": "Libertarian",
+        "name": "Nathan Covington",
+        "votes": 698,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 22nd Senatorial District",
+        "district": 22,
+        "party": "Republican",
+        "name": "Chris Chermak",
+        "votes": 22465,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 23,
+        "party": "Democratic",
+        "name": "Jaclyn Scott",
+        "votes": 32131,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 23,
+        "party": "Republican",
+        "name": "Emerson Eugene Yaw",
+        "votes": 87037,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 24,
+        "party": "Democratic",
+        "name": "Linda Fields",
+        "votes": 49558,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 24,
+        "party": "Republican",
+        "name": "Robert Bruce Mensch",
+        "votes": 54586,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 25,
+        "party": "Democratic",
+        "name": "Margaret Satterwhite Brown",
+        "votes": 30608,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 25,
+        "party": "Republican",
+        "name": "Cris Dush",
+        "votes": 88994,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 26,
+        "party": "Democratic",
+        "name": "Timothy Kearney",
+        "votes": 65660,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 26,
+        "party": "Republican",
+        "name": "Thomas McGarrigle Sr.",
+        "votes": 55287,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 27,
+        "party": "Democratic",
+        "name": "Michelle Lynn Siegel",
+        "votes": 32135,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 27,
+        "party": "Republican",
+        "name": "John Gordner",
+        "votes": 83629,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 28,
+        "party": "Democratic",
+        "name": "Judith McCormick Higgins",
+        "votes": 37105,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 28,
+        "party": "Republican",
+        "name": "Kristin Lee Phillips-Hill",
+        "votes": 62380,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 29,
+        "party": "Republican",
+        "name": "David Argall",
+        "votes": 106205,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 30,
+        "party": "Democratic",
+        "name": "Emily Garbuny Best",
+        "votes": 23684,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 30,
+        "party": "Republican",
+        "name": "Judith Ward",
+        "votes": 63611,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 31,
+        "party": "Democratic",
+        "name": "Shanna Danielson",
+        "votes": 62123,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 31,
+        "party": "Republican",
+        "name": "Michael Regan",
+        "votes": 95228,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 32,
+        "party": "Democratic",
+        "name": "Pamela Gerard",
+        "votes": 28371,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 32,
+        "party": "Republican",
+        "name": "Patrick J. Stefano",
+        "votes": 54417,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 33,
+        "party": "Democratic",
+        "name": "Richard Sterner",
+        "votes": 43914,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 33,
+        "party": "Republican",
+        "name": "Doug Mastriano",
+        "votes": 96097,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 34,
+        "party": "Democratic",
+        "name": "Ezra Nanes",
+        "votes": 39075,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 34,
+        "party": "Republican",
+        "name": "Jacob Corman III",
+        "votes": 49259,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 35,
+        "party": "Democratic",
+        "name": "Shaun Dougherty",
+        "votes": 32794,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 35,
+        "party": "Republican",
+        "name": "Wayne Langerholc Jr.",
+        "votes": 91595,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 36,
+        "party": "Democratic",
+        "name": "William Troutman Jr.",
+        "votes": 35280,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 36,
+        "party": "Republican",
+        "name": "Ryan Aument",
+        "votes": 69851,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 37,
+        "party": "Democratic",
+        "name": "Pamela Iovino",
+        "votes": 84582,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 37,
+        "party": "Republican",
+        "name": "Devlin Robinson",
+        "votes": 92027,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 38,
+        "party": "Democratic",
+        "name": "Lindsey Marie Williams",
+        "votes": 62361,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 38,
+        "party": "Republican",
+        "name": "Jeremy Kevin Shaffer",
+        "votes": 61568,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 39,
+        "party": "Democratic",
+        "name": "Tay Waltenbaugh",
+        "votes": 44768,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 39,
+        "party": "Republican",
+        "name": "Kim Ward",
+        "votes": 93310,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 40,
+        "party": "Democratic",
+        "name": "Tarah Dorothea Probst",
+        "votes": 42396,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 40,
+        "party": "Libertarian",
+        "name": "Adam Reinhardt",
+        "votes": 1251,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 40,
+        "party": "Republican",
+        "name": "Mario Scavello",
+        "votes": 54783,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 41,
+        "party": "Democratic",
+        "name": "Anthony Deloreto",
+        "votes": 34610,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 41,
+        "party": "Republican",
+        "name": "Joe Pittman",
+        "votes": 92542,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 42,
+        "party": "Democratic",
+        "name": "Wayne Fontana",
+        "votes": 86288,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 43,
+        "party": "Democratic",
+        "name": "Jay Costa Jr.",
+        "votes": 117888,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 44,
+        "party": "Democratic",
+        "name": "Katie Muth",
+        "votes": 62692,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 44,
+        "party": "Republican",
+        "name": "John Rafferty Jr.",
+        "votes": 57943,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 45,
+        "party": "Democratic",
+        "name": "James Brewster",
+        "votes": 66261,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 45,
+        "party": "Republican",
+        "name": "Nicole Ziccarelli",
+        "votes": 66192,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 46,
+        "party": "Democratic",
+        "name": "James Craig",
+        "votes": 38908,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 46,
+        "party": "Republican",
+        "name": "Camera Bartolotta",
+        "votes": 55527,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 47,
+        "party": "Democratic",
+        "name": "Stephen John Krizan III",
+        "votes": 44595,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 47,
+        "party": "Republican",
+        "name": "Elder A. Vogel Jr.",
+        "votes": 88419,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 48th Senatorial District",
+        "district": 48,
+        "party": "Bring People Together",
+        "name": "Edward Krebs",
+        "votes": 2326,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 48th Senatorial District",
+        "district": 48,
+        "party": "Democratic",
+        "name": "Calvin Clements",
+        "votes": 14806,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 48th Senatorial District",
+        "district": 48,
+        "party": "Libertarian",
+        "name": "Tim McMaster",
+        "votes": 1499,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2021 Special Election 48th Senatorial District",
+        "district": 48,
+        "party": "Republican",
+        "name": "Chris Gebhard",
+        "votes": 30367,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 49,
+        "party": "Democratic",
+        "name": "Julie Slomski",
+        "votes": 46907,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2020 Presidential Election",
+        "district": 49,
+        "party": "Republican",
+        "name": "Daniel Laughlin",
+        "votes": 69818,
+        "elected": true,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 50,
+        "party": "Democratic",
+        "name": "Sue Ann Mulvey",
+        "votes": 29125,
+        "elected": false,
+        "note": ""
+    },
+    {
+        "election": "2018 General Election",
+        "district": 50,
+        "party": "Republican",
+        "name": "Michele Brooks",
+        "votes": 55648,
+        "elected": true,
+        "note": ""
+    }
+]

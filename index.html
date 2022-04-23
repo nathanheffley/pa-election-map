@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PA Election Map | Senate</title>
+  </head>
+  <body>
+    <div id="map" class="w-full portrait:aspect-video portrait:max-h-[80vh] landscape:h-[80vh]"></div>
+
+    <div class="w-full">
+      <p class="px-4 py-3 text-center text-gray-600 italic" id="district-info-empty">Select a district on the map above to see the most recent election result information.</p>
+      <div class="px-4 py-3 max-w-3xl mx-auto" id="district-info" hidden>
+        <div class="flex justify-between">
+          <div id="info-democrat" class="flex items-center text-gray-600" style="display: none;">
+            <svg class="h-6 w-6 fill-democrat" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M191.1 479.1C191.1 497.6 206.4 512 223.1 512h32c17.6 0 32-14.4 32-32v-64h160v64c0 17.6 14.41 32 32.01 32L511.1 512c17.6 0 32-14.4 32-32l.0102-128H192L191.1 479.1zM637.2 256.9l-19.5-29.38c-28.25-42.25-75.38-67.5-126.1-67.5H255.1L174.7 78.75c20.13-20 22.63-51 7.5-73.88C178.9-.2552 171.5-1.005 167.1 3.37L125.2 45.25L82.36 2.37C78.74-1.255 72.74-.6302 69.99 3.62c-12.25 18.63-10.25 44 6.125 60.38c3.25 3.25 7.25 5.25 11.25 7.5c-2.125 1.75-4.625 3.125-6.375 5.375l-74.63 99.38C-.8895 185.9-2.014 198.9 3.361 209.7l14.38 28.5c5.375 10.88 16.5 17.75 28.5 17.75H77.24c8.5 0 16.63-3.375 22.63-9.375l38.13-34.63l54.04 108h351.1l-.0102-77.75c16.25 12.13 18.25 17.5 40.13 50.25c4.875 7.375 14.75 9.25 22.13 4.375l26.63-17.63C640.2 274.2 642.2 264.2 637.2 256.9zM296.2 243.2L279.7 259.4l3.875 22.75c.625 4.125-3.625 7.125-7.25 5.25L255.1 276.7L235.6 287.4C231.1 289.2 227.7 286.2 228.4 282.1l3.875-22.75L215.7 243.2c-3-2.875-1.25-7.875 2.875-8.5l22.75-3.25l10.25-20.75c1.75-3.625 7.125-3.625 9 0l10.13 20.75l22.88 3.25C297.6 235.4 299.2 240.4 296.2 243.2zM408.2 243.2l-16.5 16.13l3.875 22.75c.625 4.125-3.625 7.125-7.25 5.25L367.1 276.7l-20.38 10.63c-3.625 1.875-7.875-1.125-7.25-5.25l3.875-22.75l-16.5-16.13c-3-2.875-1.25-7.875 2.875-8.5l22.75-3.25l10.25-20.75c1.75-3.625 7.125-3.625 9 0l10.13 20.75l22.88 3.25C409.6 235.4 411.2 240.4 408.2 243.2zM520.2 243.2l-16.5 16.13l3.875 22.75c.625 4.125-3.625 7.125-7.25 5.25l-20.38-10.63l-20.38 10.63c-3.625 1.875-7.875-1.125-7.25-5.25l3.875-22.75l-16.5-16.13c-3-2.875-1.25-7.875 2.875-8.5l22.75-3.25l10.25-20.75c1.75-3.625 7.125-3.625 9 0l10.13 20.75l22.88 3.25C521.6 235.4 523.2 240.4 520.2 243.2z"/></svg>
+            <span class="ml-2">Democrat</span>
+          </div>
+          <div id="info-republican" class="flex items-center text-gray-600" style="display: none;">
+            <svg class="h-6 w-6 fill-republican" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M544 191.1c0-88.37-71.62-159.1-159.1-159.1L159.1 32C71.62 32 0 103.6 0 191.1l.025 63.98h543.1V191.1zM176.3 170.4l-19.75 19.37l4.75 27.25c.7498 4.875-4.375 8.625-8.75 6.25l-24.5-12.87L103.5 223.2C99.27 225.6 94.02 221.9 94.77 216.1l4.75-27.25l-19.75-19.37C76.15 166.9 78.15 160.9 83.02 160.2L110.4 156.2l12.25-24.87c2.125-4.5 8.625-4.375 10.62 0L145.5 156.2L172.9 160.2C177.9 160.9 179.8 166.9 176.3 170.4zM320.3 170.4l-19.75 19.37l4.75 27.25c.7498 4.875-4.375 8.625-8.75 6.25L272 210.4l-24.5 12.87C243.3 225.6 238 221.9 238.8 216.1L243.5 189.7l-19.75-19.37c-3.625-3.5-1.625-9.498 3.25-10.12L254.4 156.2l12.25-24.87c2.125-4.5 8.625-4.375 10.62 0L289.5 156.2l27.37 4C321.9 160.9 323.8 166.9 320.3 170.4zM464.3 170.4l-19.75 19.37l4.75 27.25c.7498 4.875-4.375 8.625-8.75 6.25l-24.5-12.87l-24.5 12.87c-4.25 2.375-9.5-1.375-8.75-6.25l4.75-27.25l-19.75-19.37c-3.625-3.5-1.625-9.498 3.25-10.12l27.37-4l12.25-24.87c2.125-4.5 8.625-4.375 10.62 0l12.25 24.87l27.37 4C465.9 160.9 467.8 166.9 464.3 170.4zM624 319.1L592 319.1c-8.799 0-15.1 7.199-15.1 15.1v63.99c0 8.748-7.25 15.1-15.1 15.1c-8.75 0-15.1-7.25-15.1-15.1l-.0313-111.1L.025 287.1v159.1c0 17.6 14.4 31.1 31.1 31.1L95.98 479.1c17.6 0 32.04-14.4 32.04-32v-63.98l191.1-.0169v63.99c0 17.6 14.36 32 31.96 32l64.04 .013c17.6 0 31.1-14.4 31.1-31.1l-.0417-96.01l32.04 .0006v43.25c0 41.79 29.91 80.03 71.48 84.35C599.3 484.5 640 446.9 640 399.1v-63.98C640 327.2 632.8 319.1 624 319.1z"/></svg>
+            <span class="ml-2">Republican</span>
+          </div>
+          <div id="info-independent" class="flex items-center text-gray-600" style="display: none;">
+            <svg class="h-6 w-6 fill-other" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M544 61.63V30.74c0-25-28.81-37.99-53.17-26.49C306.3 91.5 321.5-62.25 96 32.38V32c0-17.75-14.25-32-32-32S32 14.25 32 32L31.96 496c0 8.75 7.25 16 15.1 16H80C88.75 512 96 504.8 96 496V384c200-92.25 238.8 53.25 428.1-23.12C536.3 355.9 544 344.4 544 332.1V296.1c-46.98 17.25-86.42 24.12-120.8 24.12c-40.25-.125-74.17-8.5-107.7-16.62C254 288.5 195.3 274.8 96 314.8v-34.5c102-37.63 166.5-22.75 228.4-7.625C385.1 287.8 444.7 301.4 544 261.5V200c-46.98 17.25-86.42 24.12-120.8 24.12c-40.25 0-74.17-8.375-107.7-16.5C254 192.5 195.3 178.8 96 218.8v-34.5c102-37.5 166.5-22.62 228.4-7.5C385.1 191.8 444.7 205.4 544 165.6V96.75c-57.75 23.5-100.4 31.38-135.8 31.38c-62.96 0-118.9-27.09-120.2-27.38V67.5C331.9 78.94 390.1 128.3 544 61.63zM160 136c-8.75 0-16-7.125-16-16s7.25-16 16-16s16 7.125 16 16S168.8 136 160 136zM160 72c-8.75 0-16-7-16-16c0-8.75 7.25-16 16-16s16 7.125 16 16S168.8 72 160 72zM224 128C215.3 128 208 120.9 208 112S215.3 96 224 96s16 7 16 16C240 120.8 232.8 128 224 128zM224 64.25c-8.75 0-16-7-16-16c0-8.75 7.25-16 16-16s16 7.125 16 16S232.8 64.25 224 64.25z"/></svg>
+            <span class="ml-2">Independent</span>
+          </div>
+        </div>
+
+        <div class="mt-2 flex items-center">
+          <span id="info-name" class="font-semibold text-xl"></span>
+          <a id="info-representative-link" class="ml-1" title="View this representative's legislature website">
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+              <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+            </svg>
+          </a>
+        </div>
+
+        <div id="info-district" class="flex text-gray-600 text-xl"></div>
+
+        <div id="info-election-results-vote-totals" class="text-gray-600"></div>
+      </div>
+
+      <div class="w-full bg-gray-200">
+        <div class="h-2 w-full max-w-3xl mx-auto md:px-4 flex items-stretch">
+          <span class="bg-democrat" id="info-election-results-percentage-bar-democrat"></span>
+          <span class="bg-republican" id="info-election-results-percentage-bar-republican"></span>
+          <span class="bg-other" id="info-election-results-percentage-bar-other"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 px-4 py-3 w-full max-w-3xl mx-auto" id="senate-info">
+      <h2 class="text-4xl text-gray-800 font-semibold">Senate Breakdown</h2>
+      <ol class="mt-4 flex flex-wrap gap-3" id="senate-info_seats"></ol>
+      <div class="mt-4 text-gray-900 space-y-2">
+        <p>
+          Democrats received 50% of all votes, but hold just 42% of seats in the Senate.
+          Even though Democratic candidates represent almost 90k more voters than
+          Republican candidates, they are the minority party in the Senate.
+        </p>
+
+        <p>
+          Republicans received only 48.5% of all votes, but hold 56%
+          of seats in the Senate. Despite winning a minority of the votes,
+          Republicans hold 7 more seats in the Senate than the Democratic party.
+        </p>
+
+        <p>One seat is held by an Independent.</p>
+      </div>
+    </div>
+
+    <div class="mt-6 h-2 w-full bg-gray-200"></div>
+
+    <p class="px-4 py-8 w-full max-w-3xl mx-auto">
+      Gerrymandering is harmful to our democratic process and only stands to benefit the politicians already in power instead of the people.
+      <a href="https://www.legis.state.pa.us/cfdocs/legis/home/findyourlegislator/" class="text-blue-800 underline">Contact your legislators</a>
+      and tell them Pennsylvania wants fair representation in our legislature.
+    </p>
+
+    <div class="mt-6 h-2 w-full bg-gray-200"></div>
+
+    <p class="px-4 py-8 w-full max-w-3xl mx-auto">
+      Spot any issues with the data?
+      All the data is available and free for anyone to fix on <a href="https://github.com/nathanheffley/pa-election-map" class="text-blue-800 underline">GitHub</a>.
+    </p>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
